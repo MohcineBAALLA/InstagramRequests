@@ -1,5 +1,4 @@
-# author : akash black hat hacke
-# darkweb pleyer 127.0.0.1
+
 from __future__ import absolute_import
 from __future__ import print_function
 import requests, sys, threading, time, os, random
