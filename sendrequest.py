@@ -30,25 +30,7 @@ CheckVersion = str(sys.version)
 import re
 from datetime import datetime
 
-print('''    
-\033[32m██╗███╗   ██╗███████╗████████╗ █████╗                     
-██║████╗  ██║██╔════╝╚══██╔══╝██╔══██╗                    
-██║██╔██╗ ██║███████╗   ██║   ███████║                    
-██║██║╚██╗██║╚════██║   ██║   ██╔══██║                    
-██║██║ ╚████║███████║   ██║   ██║  ██║                    
-╚═╝╚═╝  ╚═══╝╚══════╝   ╚═╝   ╚═╝  ╚═╝
-┌┐ ┬─┐┬ ┬┌┬┐  ┌─┐┌─┐┬─┐┌─┐┌─┐   V1.0
-├┴┐├┬┘│ │ │   ├┤ │ │├┬┘│  ├┤   
-└─┘┴└─└─┘ ┴   └  └─┘┴└─└─┘└─┘     
-\033[38m***\033[31mInstgrame Brute Force Attack \033[38m***
-\033[33m*\033[32mDeveloper:AKASH BLACK HAT   \033[33m     *
-\033[35m*\033[32mInstagram:akashblackhat    \033[35m      *
-\033[31m*\033[32mYouTube  :Technical akash skills \033[31m*
-\033[37m*\033[32mPassList :Attack\033[37m                 *
-\033[35m**********\033[31m*********\033[33m*********\033[32m*******''')
-print('''\033[31mNotice :-> Management depends on vpn software
-Please use it before running the tool.\033[32m.''')
-
+ 
 class InstaBrute(object):
     def __init__(self):
         # Configure Tor proxy
